@@ -1,0 +1,123 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+  padding:0;
+}
+body{
+  margin-top:100px;
+  display:flex;
+  justify-content: center;
+
+}
+.holecontent{
+  box-shadow: 4px 4px 5px rgba(111, 108, 108, 0.4);
+}
+.todo{
+  background-image: linear-gradient(340deg, #2874ee 0%, #09c6f9 100%);
+  padding:50px;
+  height:180px;
+  width:700px;
+  text-align: center;
+  box-shadow: 4px 4px 5px rgba(111, 108, 108, 0.4);
+
+}
+.todo h1{
+  color:white;
+  font-size: 30px;
+  font-weight: 600;
+}
+.todo .inputbtn{
+  width:80%;
+  height:32px;
+  border:none;
+  border-radius: 5px;
+  padding: 10px 23px;
+  margin-right: 20px;
+}
+.todo .addbtn{
+  height:32px;
+  width:80px;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.holecontent .new{
+  padding-top:10px;
+  text-align: center;
+  height:auto;
+  
+
+}
+.todo .addbtn:hover{
+  background-color: rgb(61, 44, 44);
+}
+.todo .addbtn h4:hover{
+  color:rgb(255, 255, 255);
+}
+.new p{
+  padding-top:15px;
+  font-size: 18px;
+  font-weight: 100;
+  color:rgb(40, 68, 225)
+}
+.new #list{
+  list-style: none;
+
+}
+
+.popup{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position:fixed;
+  bottom:100px;
+  width:700px;
+  height:200px;
+  background-color: rgb(65, 50, 50);
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 4px 4px 5px rgba(111, 108, 108, 0.4);
+  
+}
+.popup h3{
+  padding:20px;
+  color:white;
+  font-size: 32px;
+  font-weight: 600;
+}
+.popup-info{
+  margin-bottom:20px;
+  color:white;
+}
+.popup-body{
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  width:100%;
+  padding:10px;
+
+}
+.popup-input{
+  width:90%;
+  padding:10px 20px;
+  border:none;
+  border-radius: 5px;
+}
+.popup-btn{
+  display: inline-block;
+  width: 30%;
+  padding: 10px 22px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  color:black;
+  background-color:white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color .3s, color .3s;
+}
+
+.popup-btn:hover{
+  color: rgb(254, 250, 250);
+  background-color:rgb(7, 130, 246);
+}
